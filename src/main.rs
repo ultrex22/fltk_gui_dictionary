@@ -18,7 +18,7 @@ fn read_from_file<P: AsRef<Path>>(path: P) -> Map<String, Value> {
 }
 
 fn get_search_term() -> String {
-    println!("Enter search term, or 'Iquit' to exit : ");
+    println!("Enter search term, or 'IQuit' to exit : ");
     let mut buffer = String::new();
     io::stdin()
         .read_line(&mut buffer)

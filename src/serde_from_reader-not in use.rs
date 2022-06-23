@@ -24,6 +24,6 @@ fn read_user_from_file<P: AsRef<Path>>(path: P) -> Result<Dict, Box<dyn Error>> 
 
 pub fn from_reader() {
     // convert();
-    let d = read_user_from_file("src/test.json.small").unwrap();
+    let d = read_user_from_file("src/test.json.small-not in use").unwrap();
     println!("{:#?}", d);
 }
