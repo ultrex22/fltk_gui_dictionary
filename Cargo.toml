@@ -9,3 +9,4 @@ edition = "2021"
 serde_json = "=1.0"
 serde = { version = "1.0", features = ["derive"] }
 difflib = "0.4.0"
+fltk = "1.3.9"
