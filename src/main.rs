@@ -11,7 +11,6 @@ use serde_json::{self, Map, Value};
 
 fn read_from_file<P: AsRef<Path>>(path: P) -> Map<String, Value> {
     let mut file = File::open(path).expect("failed to open file");
-
     let mut contents = String::new();
     file.read_to_string(&mut contents)
         .expect("failed to read to string");
