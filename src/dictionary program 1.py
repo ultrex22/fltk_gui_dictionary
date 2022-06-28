@@ -3,7 +3,7 @@ from difflib import get_close_matches as gcm
 # from typing import ClassVar, get_type_hints
 
 
-data = json.load(open("data.txt"))
+data = json.load(open("../temp_files/data.txt"))
 # print(data)
 while True:
     def lookup(word):
